@@ -43,7 +43,7 @@ Export {
     }
 
     Access_type = RW;
-    Squash = root_squash;
+    Squash = no_root_squash;
     Disable_ACL = true;
     Protocols = "4";
     Transports = "TCP";
